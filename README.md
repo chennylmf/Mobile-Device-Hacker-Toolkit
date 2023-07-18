@@ -4,48 +4,60 @@
 A repo to gather powerful toolkits used for android/ios system hacking 
 
 
+        
+| Operating System | Type | Name | Description |
+| --- | --- | --- | --- |
+| All | Analysis | [RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) | Runtime Mobile Security (RMS) - is a powerful web interface that helps you to manipulate Android and iOS Apps at Runtime |
+| All | Analysis | [scrounger](https://github.com/nettitude/scrounger) | Mobile application testing toolkit |
+| All | Proxy | [BurpSuite](https://portswigger.net/burp) | BurpSuite |
+| All | Proxy | [hetty](https://github.com/dstotijn/hetty) | Hetty is a toolkit for security research with HTTP |
+| All | Proxy | [httptoolkit](https://github.com/httptoolkit/httptoolkit) | HTTP Toolkit is a beautiful, open-source tool for debugging, testing, and building with HTTP(S) on Windows, Linux and Mac |
+| All | Proxy | [proxify](https://github.com/projectdiscovery/proxify) | Swiss army knife proxy tool that can capture, manipulate, and replay HTTP/HTTPS traffic everywhere. |
+| All | Proxy | [zaproxy](https://github.com/zaproxy/zaproxy) | OWASP ZAP core project |
+| All | Reverse | [frida](https://github.com/frida/frida) | Dynamic toolkit for developers, reverse engineers and security researchers |
+| All | Reverse | [frida-tools](https://github.com/frida/frida-tools) | Frida CLI tools |
+| All | Reverse | [fridump](https://github.com/Nightbringer21/fridump) | Universal memory dumper using Frida |
+| All | Reverse | [ghidra](https://github.com/NationalSecurityAgency/ghidra) | Ghidra is a software reverse engineering (SRE) framework |
+| All | Script | [frida-scripts](https://github.com/0xdea/frida-scripts) | Collection of my Frida.re tools scripts to aid reverse-engineering on mobile apps. |
+| All | Scanner | [Mobile Security Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android/iOS/Windows) pen-testing, malware analysis and security tool. |
+| All | Scanner | [StaCoAn](https://github.com/vincentcox/StaCoAn) | StaCoAn is a cross-platform tool which aids developers, bug bounty hunters and ethical hackers performing static code analysis on mobile applications. |
+| Android | Analysis | [apkleaks](https://github.com/dwisiswant0/apkleaks) | Scanning for URIs, keys/secrets, and other sensitive data in APK files. |
+| Android | Analysis | [drozer](https://github.com/FSecureLABS/drozer) | The leading Android security evaluation framework. |
+| Android | NFC | [nfcgate](https://github.com/nfcgate/nfcgate) | NFC research toolkit app for Android |
+| Android | Penetration | [Kali](https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project) | Mobile penetration testing platform |
+| Android | Reverse | [Apktool](https://github.com/iBotPeaches/Apktool) | Tool for reverse engineering Android APK files |
+| Android | Reverse | [Smali-CFG](https://github.com/EugenioDelfa/Smali-CFGs) | Smali Control Flow Graph |
+| Android | Reverse | [apkx](https://github.com/b-mueller/apkx) | One-step APK decompilation with multiple backends |
+| Android | Reverse | [Bytecode viewer](https://github.com/Konloch/bytecode-viewer/) | Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger and more) |
+| Android | Reverse | [dex-oracle](https://github.com/CalebFenton/dex-oracle) | Pattern based Dalvik deobfuscator which uses limited execution to improve semantic analysis |
+| Android | Reverse | [dex2jar](https://github.com/pxb1988/dex2jar) | Tools to work with android .dex and java .class files |
+| Android | Reverse | [enjarify](https://github.com/Storyyeller/enjarify) | Enjarify is a tool for translating Dalvik bytecode to equivalent Java bytecode. This allows Java analysis tools to analyze Android apps. |
+| Android | Reverse | [jadx](https://github.com/skylot/jadx) | Dex to Java decompiler |
+| Android | Reverse | [jd-gui](https://github.com/java-decompiler/jd-gui) | Standalone Java Decompiler GUI |
+| Android | Reverse | [procyon](https://github.com/mstrobel/procyon) | Procyon Java Decompiler |
+| Android | Reverse | [quark-engine](https://github.com/quark-engine/quark-engine) | An Obfuscation-Neglect Android Malware Scoring System |
+| Android | Scanner | [qark](https://github.com/linkedin/qark) | Discover, exploit, and mitigate Java deserialization vulnerabilities |
+| Android | Scanner | [super](https://github.com/SUPERAndroidAnalyzer/super) | SUPER is a command-line application that can be used in Windows, MacOS X and Linux, that analyzes .apk files in search for vulnerabilities. |
+| Android | Scanner | [Androbugs_Framework](https://github.com/AndroBugs/AndroBugs_Framework) | Android security analysis tool |
+| Android | Scanner | [androguard](https://github.com/androguard/androguard) | Reverse engineering, Malware and goodware analysis of Android applications |
+| Android | Vulnerability| [Vulnerability Scanner](https://github.com/OWASP/joomscan) | OWASP JoomScan Project |
+| Android | Vulnerability| [Vulnerability Scanner](https://github.com/flipkart-incubator/DroidBot) | A lightweight UI-guided test input generator for Android |
+| Android | Vulnerability| [Vulnerability Scanner](https://github.com/skylot/jadx) | Dex to Java decompiler |
+| Android | Vulnerability| [Vulnerability Scanner](https://github.com/java-decompiler/jd-gui) | Standalone Java Decompiler GUI |
+| iOS | Analysis | [Fridpa](https://github.com/tanprathan/Fridpa) | An automated tool using Frida.re for dynamic instrumentation, to bypass and defeat SSL Pinning. |
+| iOS | Analysis | [Passionfruit](https://github.com/chaitin/passionfruit) | Simple iOS app black box assessment tool. |
+| iOS | Analysis | [objection](https://github.com/sensepost/objection) | Mobile exploration toolkit. Runtime Mobile Exploration |
+| iOS | Penetration | [idb](https://github.com/dmayer/idb) | iOS App Security Assessment Tool |
+| iOS | Proxy | [iOS SSL Kill Switch](https://github.com/nabla-c0d3/ssl-kill-switch2) | Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS Apps |
+| iOS | Reverse | [clutch](https://github.com/KJCracks/Clutch) | Fast iOS executable dumper |
+| iOS | Reverse | [Hopper](https://www.hopperapp.com/) | Reverse engineering tool for macOS and Linux |
+| iOS | Reverse | [iRET](https://github.com/S3Jensen/iRET) | iOS Reverse Engineering Toolkit |
+| iOS | Reverse | [macho](https://github.com/aidansteele/macho) | Node.js library for parsing Mach-O files, the executable format used by OS X and iOS |
+| iOS | Scanner | [needle](https://github.com/mwrlabs/needle) | The iOS Security Testing Framework |
+| iOS | Vulnerability| [Vulnerability Scanner](https://github.com/OWASP/owasp-mstg) | The Mobile Security Testing Guide (MSTG) is a comprehensive manual for mobile app security testing and reverse engineering. |
 
-| Category      | Analysis       | [RMS-Runtime-Mobile-Security](https://github.com/m0bilesecurity/RMS-Runtime-Mobile-Security) | Runtime Mobile Security (RMS) ?? - A powerful web interface that helps you manipulate Android and iOS applications at runtime |
-| ------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| All      | Analysis       | [scrounger](https://github.com/nettitude/scrounger)                                                                                                           | Mobile application testing toolkit                                                                             |
-| All      | Proxy        | [BurpSuite](https://portswigger.net/burp)                                                                                                                     | BurpSuite                                                                             |
-| All      | Proxy        | [hetty](https://github.com/dstotijn/hetty)                                                                               | Hetty is an HTTP toolkit for security research.                                                                |
-| All      | Proxy        | [httptoolkit](https://github.com/httptoolkit/httptoolkit)                                                                                                     | HTTP Toolkit is a beautiful open-source tool for debugging, testing, and building HTTP(S) on Windows, Linux, and Mac.                        |
-| All      | Proxy        | [proxify](https://github.com/projectdiscovery/proxify)                                                         | Swiss Army knife proxy tool for intercepting, manipulating, and replaying HTTP/HTTPS traffic anywhere, anytime.                                                 |
-| All      | Proxy        | [zaproxy](https://github.com/zaproxy/zaproxy)                                                                                                                 | OWASP ZAP core project                                                                         |
-| All      | Reverse        | [frida](https://github.com/frida/frida)                                                                                 | Dynamic toolkit for developers, reverse engineers, and security researchers                                                           |
-| All      | Reverse        | [frida-tools](https://github.com/frida/frida-tools)                                                               | Frida CLI tools                                                                           |
-| All      | Reverse        | [fridump](https://github.com/Nightbringer21/fridump)                                                             | Universal memory dumper using Frida                                                                       |
-| All      | Reverse        | [ghidra](https://github.com/NationalSecurityAgency/ghidra)                                                | Ghidra is a software reverse engineering (SRE) framework                                                                |
-| All      | Scripts        | [frida-scripts](https://github.com/0xdea/frida-scripts)                                                             | Collection of my Frida.re tool scripts for facilitating reverse engineering of mobile apps.                                                   |
-| All      | Scanner       | [Mobile Security Framework MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)                                                                                       | Mobile Security Framework (MobSF) is an automated, all-in-one mobile application (Android / iOS / Windows) for static and dynamic penetration testing, malware analysis, and security assessment. |
-| All      | Scanner       | [StaCoAn](https://github.com/vincentcox/StaCoAn)                                                                                                              | StaCoAn is a cross-platform tool that helps developers, bug bounty hunters and ethical hackers perform static code analysis on mobile applications.                                  |
-| Android | Analysis        | [apkleaks](https://github.com/dwisiswant0/apkleaks)                                                                                                           | Scanning for URI, API and secrets in APK files.                                                                  |
-| Android | Analysis        | [drozer](https://github.com/FSecureLABS/drozer)                                                                      | The leading Android security evaluation framework.                                                                     |
-| Android | NFC       | [nfcgate](https://github.com/nfcgate/nfcgate)                                                                                                                 | NFC research toolkit app for Android                                                               |
-| Android | Penetration Testing      | [Kali](https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project)                                                                           | Mobile penetration testing platform                                                                              |
-| Android | Reverse        | [Apktool](https://github.com/iBotPeaches/Apktool)                                                                                                             | A tool for reverse engineering Android APK files                                                                  |
-| Android | Reverse        | [Smali-CFG](https://github.com/EugenioDelfa/Smali-CFGs)                                                                                                       | Smali control flow graphs                                                                            |
-| Android | Reverse        | [apkx](https://github.com/b-mueller/apkx)                                                                                                                     | A one-step APK decompiler with multiple backends                                                                      |
-| Android | Reverse        | [Bytecode Viewer](https://github.com/Konloch/bytecode-viewer/)                                                                                                         | Java 8+ Jar and Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger and more)                                          |
-| Android | Reverse        | [dex-oracle](https://github.com/CalebFenton/dex-oracle)                                                                                                       | Pattern-based Dalvik deobfuscator that uses limited execution to improve semantic analysis                                                         |
-| Android | Reverse        | [dex2jar](https://github.com/pxb1988/dex2jar)                                                                                                                 | Tools to work with android .dex and java .class files                                                    |
-| Android | Reverse        | [enjarify](https://github.com/Storyyeller/enjarify)                                                                | Enjarify is a tool for converting Dalvik bytecode to equivalent Java bytecode. This allows Java analysis tools to analyze Android applications.                         |
-| Android | Reverse        | [jadx](https://github.com/skylot/jadx)                                                                                      | Dex to Java decompiler                                                                          |
-| Android | Reverse        | [jd-gui](https://github.com/java-decompiler/jd-gui)                                                                                                           | Standalone Java Decompiler GUI                                                                |
-| Android | Reverse        | [procyon](https://github.com/mstrobel/procyon)                                                                                                                | Procyon is a set of Java metaprogramming tools including a rich reflection API, a LINQ-style expression tree API for runtime code generation, and a Java decompiler.                     |
-| Android | Scanner       | [qark](https://github.com/linkedin/qark)                                                                                  | A tool to find security-related multiple vulnerabilities in Android applications                                                            |
-| iOS     | Analysis        | [iFunBox](http://www.i-funbox.com/)                                                                                                                           | General file management software for iPhone and other Apple products                                                          |
-| iOS     | Analysis | [iFunBox](http://www.i-funbox.com/) | General file management software for iPhone and other Apple products |
-| iOS     | Analysis | [IDB](https://github.com/dmayer/idb) | IDB is a tool for simplifying some common tasks in iOS penetration testing and research |
-| iOS     | Analysis | [needle](https://github.com/FSecureLABS/needle) | iOS security testing framework |
-| iOS     | Analysis | [objection](https://github.com/sensepost/objection) | Objection - Runtime mobile exploration |
-| iOS     | Bluetooth | [toothpicker](https://github.com/seemoo-lab/toothpicker) | ToothPicker is an in-process, coverage-guided fuzzer for iOS Bluetooth |
-| iOS     | Injection | [bfinject](https://github.com/BishopFox/bfinject) | Dylib injection for iOS 11.0-11.1.2 using LiberiOS and Electra jailbreak |
-| iOS     | Reverse | [Clutch](https://github.com/KJCracks/Clutch) | Fast iOS executable dumper |
-| iOS     | Reverse | [class-dump](https://github.com/nygard/class-dump) | Generate Objective-C headers from Mach-O files |
-| iOS     | Reverse | [frida-ios-dump](https://github.com/AloneMonkey/frida-ios-dump) | Extract decrypted ipa from jailbroken devices |
-| iOS     | Reverse | [iRET](https://github.com/S3Jensen/iRET) | iOS reverse engineering toolkit |
-| iOS     | Reverse | [Momdec](https://github.com/atomicbird/momdec) | Core Data managed object model decompiler |
-| iOS     | Unpinning | [MEDUZA](https://github.com/kov4l3nko/MEDUZA) | More or less universal SSL unpinning tool for iOS |
-| iOS     | Unpinning | [ssl-kill-switch2](https://github.com/nabla-c0d3/ssl-kill-switch2) | Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps |                                               
+
+
+
+
+
