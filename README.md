@@ -45,7 +45,8 @@ A repo to gather powerful toolkits used for android/ios system hacking
 | Android | Vulnerability| [Vulnerability Scanner](https://github.com/skylot/jadx) | Dex to Java decompiler |
 | Android | Vulnerability| [Vulnerability Scanner](https://github.com/java-decompiler/jd-gui) | Standalone Java Decompiler GUI |
 | iOS | Analysis | [Fridpa](https://github.com/tanprathan/Fridpa) | An automated tool using Frida.re for dynamic instrumentation, to bypass and defeat SSL Pinning. |
-| iOS | Analysis | [Passionfruit](https://github.com/chaitin/passionfruit) | Simple iOS app black box assessment tool. |
+| iOS | Analysis | [Passionfruit](https://github.com/chaitin/passionfruit) | Simple iOS app black box assessment tool. (this is no longer maintained, would recommend grapefruit in below) |
+| iOS | Analysis | [Grapefruit](https://github.com/ChiChou/grapefruit) | Simple iOS app black box assessment tool. Runtime Application Instruments for iOS |
 | iOS | Analysis | [objection](https://github.com/sensepost/objection) | Mobile exploration toolkit. Runtime Mobile Exploration |
 | iOS | Penetration | [idb](https://github.com/dmayer/idb) | iOS App Security Assessment Tool |
 | iOS | Proxy | [iOS SSL Kill Switch](https://github.com/nabla-c0d3/ssl-kill-switch2) | Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS Apps |
